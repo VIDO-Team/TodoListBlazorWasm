@@ -1,0 +1,17 @@
+Ten { get; set; }
+Diachi { get; set; }
+Sdt { get; set; }
+Ngaysinh { get; set; }
++"VIDO DEV"
+-"DEV MESSAGE"
+    -BUttON tuyển sinh
+        -MESSAGE: YÊU CẦU NHẬP THÔNG TIN
+        -MESSAGE: ĐỊA CHỈ, MẪU:
+        +NGƯỜI DÙNG NHẬP XONG
+        -MESSAGE: XÁC NHẬN LẠI.
+        -BUTTON ĐÚNG SAI 
+            -SAI: -MESSAGE: ĐỊA CHỈ, MẪU:
+            -ĐÚNG: -MESSAGE: SĐT
+            +NGƯỜI DÙNG NHẬP XONG
+            -MESSAGE: XÁC NHẬN LẠI.
+        -MESSAGE: THÔNG TIN BẠN ĐÃ NHẬP: 
